@@ -1,4 +1,4 @@
-# E-Commerce Backend — Member 2 Deliverable (Testing & SonarQube)
+# E-Commerce Backend — Deliverable (Testing & SonarQube)
 
 A sample Spring Boot backend (User, Product, Cart, Order modules) with a full JUnit 5 +
 Mockito unit test suite for the service layer, built specifically to give Member 2
