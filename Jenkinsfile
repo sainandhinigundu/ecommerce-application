@@ -29,7 +29,7 @@ pipeline {
         stage('SonarQube Scan') {
             steps {
                 withSonarQubeEnv('SonarQube') {
-                    bat 'mvn -B sonar:sonar -Dsonar.projectKey=ecommerce-backend -Dsonar.projectName=ecommerce-backend'
+                    bat 'mvn -B org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=ecommerce-backend -Dsonar.projectName=ecommerce-backend'
                 }
             }
         }
